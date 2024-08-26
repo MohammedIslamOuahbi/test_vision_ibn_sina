@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         try {
-            const response = await fetch(`/search_patient?query=${encodeURIComponent(query)}`);
+            const response = await fetch(`search_patient?query=${encodeURIComponent(query)}`);
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
