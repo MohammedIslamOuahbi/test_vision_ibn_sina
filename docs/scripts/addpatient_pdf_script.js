@@ -1,6 +1,6 @@
 
 document.getElementById('previous-btn').addEventListener('click', function() {
-    window.location.href = '/addpatient_test3'; // Update this path if necessary
+    window.location.href = 'addpatient_test3'; // Update this path if necessary
 });
 
 document.addEventListener('DOMContentLoaded', function() {
