@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 #===================================================================================================================
 app = FastAPI()
 #============================== loaded the files ==============================================================================================
-templates = Jinja2Templates(directory="templates")
+templates = Jinja2Templates(directory="docs")
 app.mount("/styles", StaticFiles(directory="styles"), name="styles")
 app.mount("/scripts", StaticFiles(directory="scripts"), name="scripts")
 app.mount("/icons", StaticFiles(directory="icons"), name="icons")
